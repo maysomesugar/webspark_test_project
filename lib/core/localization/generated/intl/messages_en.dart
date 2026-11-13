@@ -22,12 +22,40 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "calculations_finished": MessageLookupByLibrary.simpleMessage(
+      "All calculations has finished, you can send your result to server",
+    ),
+    "enter_url": MessageLookupByLibrary.simpleMessage("Please enter your URL"),
+    "grid_different_length": MessageLookupByLibrary.simpleMessage(
+      "Grid rows have different lengths",
+    ),
+    "grid_is_empty": MessageLookupByLibrary.simpleMessage("Grid is empty"),
     "home_screen": MessageLookupByLibrary.simpleMessage("Home Screen"),
     "home_screen_button_text": MessageLookupByLibrary.simpleMessage(
       "Start counting process",
     ),
     "home_screen_title": MessageLookupByLibrary.simpleMessage(
       "Set valid API base URL in order to continue",
+    ),
+    "preview_screen": MessageLookupByLibrary.simpleMessage("Preview screen"),
+    "process_screen": MessageLookupByLibrary.simpleMessage("Process screen"),
+    "result_list_screen": MessageLookupByLibrary.simpleMessage(
+      "Result list screen",
+    ),
+    "send_result": MessageLookupByLibrary.simpleMessage(
+      "Send result to server",
+    ),
+    "something_gone_wrong": MessageLookupByLibrary.simpleMessage(
+      "Something gone wrong",
+    ),
+    "start_counting_process": MessageLookupByLibrary.simpleMessage(
+      "Start counting process",
+    ),
+    "wrong_calculation": MessageLookupByLibrary.simpleMessage(
+      "Wrong calculation",
+    ),
+    "wrong_url_specified": MessageLookupByLibrary.simpleMessage(
+      "Wrong url specified",
     ),
   };
 }

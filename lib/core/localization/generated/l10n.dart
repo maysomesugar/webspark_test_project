@@ -79,6 +79,126 @@ class S {
       args: [],
     );
   }
+
+  /// `Please enter your URL`
+  String get enter_url {
+    return Intl.message(
+      'Please enter your URL',
+      name: 'enter_url',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start counting process`
+  String get start_counting_process {
+    return Intl.message(
+      'Start counting process',
+      name: 'start_counting_process',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Send result to server`
+  String get send_result {
+    return Intl.message(
+      'Send result to server',
+      name: 'send_result',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wrong url specified`
+  String get wrong_url_specified {
+    return Intl.message(
+      'Wrong url specified',
+      name: 'wrong_url_specified',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Process screen`
+  String get process_screen {
+    return Intl.message(
+      'Process screen',
+      name: 'process_screen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All calculations has finished, you can send your result to server`
+  String get calculations_finished {
+    return Intl.message(
+      'All calculations has finished, you can send your result to server',
+      name: 'calculations_finished',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Grid is empty`
+  String get grid_is_empty {
+    return Intl.message(
+      'Grid is empty',
+      name: 'grid_is_empty',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Grid rows have different lengths`
+  String get grid_different_length {
+    return Intl.message(
+      'Grid rows have different lengths',
+      name: 'grid_different_length',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Something gone wrong`
+  String get something_gone_wrong {
+    return Intl.message(
+      'Something gone wrong',
+      name: 'something_gone_wrong',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wrong calculation`
+  String get wrong_calculation {
+    return Intl.message(
+      'Wrong calculation',
+      name: 'wrong_calculation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Result list screen`
+  String get result_list_screen {
+    return Intl.message(
+      'Result list screen',
+      name: 'result_list_screen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Preview screen`
+  String get preview_screen {
+    return Intl.message(
+      'Preview screen',
+      name: 'preview_screen',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

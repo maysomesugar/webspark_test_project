@@ -2,5 +2,17 @@
   "@@locale": "en",
   "home_screen": "Home Screen",
   "home_screen_title": "Set valid API base URL in order to continue",
-  "home_screen_button_text": "Start counting process"
+  "home_screen_button_text": "Start counting process",
+  "enter_url": "Please enter your URL",
+  "start_counting_process": "Start counting process",
+  "send_result": "Send result to server",
+  "wrong_url_specified": "Wrong url specified",
+  "process_screen": "Process screen",
+  "calculations_finished": "All calculations has finished, you can send your result to server",
+  "grid_is_empty": "Grid is empty",
+  "grid_different_length": "Grid rows have different lengths",
+  "something_gone_wrong": "Something gone wrong",
+  "wrong_calculation": "Wrong calculation",
+  "result_list_screen": "Result list screen",
+  "preview_screen": "Preview screen"
 }
